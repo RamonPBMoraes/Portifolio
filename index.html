@@ -7,7 +7,13 @@
   <link rel="stylesheet" href="style.css"> <!-- link que puxa o css-->
 </head>
 <body>
-   <header></header><!--cabeçalho-->
+   <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link"> Home</a>
+            <a class="cabecalho__menu__link"> Sobre mim</a>
+        </nav>
+
+   </header><!--cabeçalho-->
    <main class="apresentacao"> <!--principal-->
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong class="tituloDestaque" >com um front-end de qualidade!</strong>
@@ -18,13 +24,19 @@
               a colocar em prática boas ideias,vamos conversar?
             </p>  
             <div class="links">
-                <h2 class="apresentacao__links_subtitulo">Acesse minhas Redes:</h2>
-                <a class="link" href="https://www.instagram.com/">Instagram</a>
-                <a class="link" href="https://github.com/">Github</a> <!--link -->
+                  <h2 class="apresentacao__links_subtitulo">Acesse minhas Redes:</h2>
+                  <a class="link" href="https://www.instagram.com/"> 
+                  <img src="./assetes/instagram.png"  alt="icone1 instagram"> Instagram
+                  </a>
+                  <a class="link" href="https://github.com/">
+                  <img src="./assetes/github.png" alt="Icone 2 Github"> Github
+                  </a> <!--link -->
             </div>  
           </section>
-         <img src="imagem.jfif" alt="progrmando"> <!--imagem-->
+         <img src="./assetes/imagem.jfif" alt="progrmando"> <!--imagem-->
       </main>
-   <footer></footer> <!--rodape-->
+   <footer class="rodape">
+      <p>Desenvolvido por Ramon</p>
+   </footer> <!--rodape-->
 </body>
 </html>
