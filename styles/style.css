@@ -1,6 +1,11 @@
 /*importando fontes*/@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 /*importando fontes*/@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+    --cor-primaria: #061D1E;
+    --cor-secundaria: darkgrey;
+    --cor-terciaria: #71A2B7;
+}
 *{
     margin: o;/*ajudar a poder configurar a posição dos elementos*/
     padding: 0;/*ajudar a poder configurar a posição dos elementos*/
@@ -84,4 +89,6 @@ body {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     font-size: 24px ;
+    text-decoration: none;
+    color: darkgray;
 }
