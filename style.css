@@ -33,18 +33,28 @@ body {
     font-size: 24px;
     font-family: Montserrat, sans-serif;
 }
+.apresentacao__links_subtitulo{
+    font-family:krona one, sans-serif;   
+    font-weight: 400;
+    font-size: 24px;
+
+}
 .links{
     display: flex;
+    flex-direction: column;/*colocando em colunas*/
     justify-content: space-between ;
+    align-items: center;
+    gap: 32px;
+
 }
 .link{
-    background-color: #71A2B7;
-    width: 285px;
+    border: 2px solid #71A2B7  ; /*tamanho da linha , tipo , cor*/
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px; /*borda arredondada*/
     font-size: 24px;
     padding: 21.5px 0px;
     text-decoration: none;
-    color: black;
+    color: darkgrey;
     font-family: Montserrat, sans-serif; 
 }
