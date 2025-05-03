@@ -1,0 +1,50 @@
+/*importando fontes*/@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+/*importando fontes*/@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: o;/*ajudar a poder configurar a posição dos elementos*/
+    padding: 0;/*ajudar a poder configurar a posição dos elementos*/
+}
+
+body {
+    height: 100vh; /*faz com que a altura do body pegue toda a altura da tela*/
+    box-sizing: border-box; /*não deixa elemento filho ultrapassar o pai */
+    background-color: #061D1E;
+    color: #71A2B7;
+}
+
+.tituloDestaque{ /*exemplo de classe*/
+    color:darkgrey;
+}
+.apresentacao{
+    margin: 10%; /*afasrou do lado da tela*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;/* espaça um elemento do outro*/
+}
+.apresentacao__conteudo{
+    width: 615px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: Krona One, sans-serif;
+}
+.apresentacao__conteudo__paragrafo{
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+}
+.links{
+    display: flex;
+    justify-content: space-between ;
+}
+.link{
+    background-color: #71A2B7;
+    width: 285px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 21.5px 0px;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat, sans-serif; 
+}
